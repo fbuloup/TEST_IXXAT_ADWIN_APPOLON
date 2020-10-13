@@ -18,9 +18,9 @@ namespace Test_IXXAT
             APOLLON_EVENT_START = 4, // start stimulus event -> ADWin start action immediately after reception
             APOLLON_EVENT_STOP = 5, // stop stimulus event -> ADWin stop/freeze action immediately after reception
             APOLLON_EVENT_RESET = 6, // reset event -> ADwin reset position to initial condition immediately after reception
-            APOLLON_EVENT_ACCEL = 0, // reset event -> ADwin reset position to initial condition immediately after reception
-            APOLLON_EVENT_SPEED = 1, // reset event -> ADwin reset position to initial condition immediately after reception
-            APOLLON_EVENT_DURATION = 2, // reset event -> ADwin reset position to initial condition immediately after reception
+            APOLLON_EVENT_ACCEL = 0, // associated with START event to provide accel value
+            APOLLON_EVENT_SPEED = 1, // associated with START event to provide speed value
+            APOLLON_EVENT_DURATION = 2, // associated with START event to provide duration value
         }
 
         private static ICanMessageWriter messageWriter;
