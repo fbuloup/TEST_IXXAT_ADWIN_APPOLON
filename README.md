@@ -1,6 +1,6 @@
-# TEST_IXXAT_ADWIN_APPOLON
+# TEST IXXAT ADWIN
 
-Communication tests between C# and ADBasic.
+Communication tests between C# and ADBasic with CAN bus using IXXAT and ADwin gold devices
 
 With these two pieces of code, it's possible to send all necessary event codes and values from c# to ADBasic using CAN bus :
 
